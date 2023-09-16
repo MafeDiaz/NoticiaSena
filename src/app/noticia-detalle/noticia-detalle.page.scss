@@ -1,0 +1,32 @@
+ion-toolbar {
+  --background: white;
+  color: blue;
+  font-weight: bold;
+}
+ion-icon{
+  color:green;
+}
+ion-button{
+  font-size: 25px;
+  margin-left: 8px;
+}
+
+ion-img {
+  width: 80%;
+  height: auto;
+  box-shadow: 2px 4px 4px black;
+}
+ion-card {
+  background: white;
+  color: blue;
+  margin-left: 20px;
+  margin-right: 20px;
+  align-items: center;
+  text-align: justify;
+}
+ion-title {
+  font-size: 30px;
+}
+ion-content{
+  --background:white;
+}

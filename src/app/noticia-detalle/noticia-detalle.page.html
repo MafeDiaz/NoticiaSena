@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="goBack()">
+        <ion-icon name="arrow-undo-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>{{ noticia.title }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-img [src]="noticia.url_imag"></ion-img>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-card-title>{{ noticia.title }}</ion-card-title>
+      {{ noticia.text_long }}
+    </ion-card-content>
+  </ion-card>
+</ion-content>
